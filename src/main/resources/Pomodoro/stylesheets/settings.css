@@ -1,0 +1,116 @@
+#settings_list{
+    -fx-background-color: rgba(33, 30, 30, 1); /*17181*/
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0;
+}
+
+.root {
+    -primary-blue: #3D4857;
+    -primary-grey: #4F4E50;
+    -primary-font-color: white;
+    -primary-activated-color: lightgreen;
+
+    -fx-font-size: 15;
+    -font-family: "Calibri";
+}
+
+.list-view .list-cell{
+    -fx-padding: 0;
+    -fx-text-fill: #c3c5c7;
+}
+
+.option_label{
+     -fx-text-fill: -primary-font-color;
+     -fx-font-weight: 500;
+}
+
+.option {
+
+}
+#option_pane {
+    -fx-padding: 0 16 0 0;
+}
+.toggle_group {
+
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #2C2C2C;
+}
+.list-view .list-cell:odd{
+     -fx-background-color: #2C2C2C;
+}
+.list-view .list-cell:selected{
+    -fx-background-color: #4f4f4f;
+}
+
+.slider .track {
+    -fx-control-inner-background: -primary-activated-color;
+}
+.slider {
+
+}
+.slider .axis{
+    -fx-tick-label-fill: white;
+}
+
+.text_input {
+    -fx-padding: 0 4 0 4;
+    -fx-border-insets: 0;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.wrong_input {
+    -fx-control-inner-background: crimson;
+}
+
+.combobox {
+    -fx-focus-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-insets: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-background-color: -primary-blue;
+}
+.combobox .list-cell{
+    -fx-padding: 0 0 0 4;
+}
+.combobox .list-view .list-cell
+{
+    -fx-background-color: -primary-blue;
+    -fx-font-weight: normal;
+}
+.combobox .list-cell:selected {
+    -fx-background-color: -primary-blue;
+    -fx-text-fill: -primary-font-color;
+    -fx-font-weight: normal;
+}
+.combobox .list-view .list-cell:filled:selected, .combobox .list-view .list-cell:filled:selected:hover
+{
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+.combobox .list-view{
+    -fx-background-color: -primary-blue;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-effect: dropshadow(three-pass-box , rgba(0, 0, 0, 1) ,1.8, 0.0 , 0, 0.1);
+}
+.combobox .arrow-button {
+    cursor: hand;
+    -fx-background-radius: 0;
+    -fx-color:white;
+}
+
+.combobox .arrow-button .arrow
+{
+    -fx-background-color: white;
+    -fx-background-insets: 0 0 0 0;
+}

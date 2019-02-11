@@ -1,0 +1,43 @@
+#overlay {
+    -fx-effect: dropshadow(three-pass-box , rgba(0, 0, 0, 0.9) , 0.1em, 0.0 , 0.07em, 0.07em );
+}
+/**
+    BLUE: #3D4857
+    GREY: #4F4E50
+    ORANGE: #EBA471
+*/
+
+#app_bar {
+    -fx-background-color: #17181b;
+    -fx-cursor:move;
+}
+
+#app_title{
+    -fx-text-fill: white;
+}
+
+#close_button{
+    -fx-background-color: #D55441;
+    -fx-pref-width: 70;
+}
+
+.root{
+  -icons-color: rgb(255,255,255);
+  -fx-background-color: rgba(33, 30, 30, 0.85);
+}
+
+.icons{
+    -fx-pref-height: 30;
+    -fx-pref-width: 50;
+    -fx-padding: 0 0 1 0;
+    -fx-alignment:CENTER;
+    -fx-font-family: "Font Awesome 5 Free";
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-cursor:hand;
+}
+
+.icons:hover{
+     -fx-background-color:#3665b3;
+     -fx-effect: innershadow( three-pass-box , derive(-icons-color,-70%) , 0.1em, 0.0 , 0.07em, 0.07em );
+ }

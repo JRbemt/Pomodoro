@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<StackPane fx:id="root" maxHeight="-Infinity" minHeight="-Infinity" minWidth="200.0" nodeOrientation="LEFT_TO_RIGHT" onMouseEntered="#showOverlay" onMouseExited="#hideOverlay" prefHeight="110.0" styleClass="root" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pomodoro.controllers.PomodoroStack">
+   <children>
+      <Label id="clock" fx:id="clock" alignment="CENTER" contentDisplay="CENTER" minHeight="-Infinity" text="25:00" textOverrun="CLIP">
+      </Label>
+      <fx:include fx:id="transparant_overlay" source="overlay.fxml" StackPane.alignment="TOP_CENTER" />
+   </children>
+</StackPane>

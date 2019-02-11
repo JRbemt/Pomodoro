@@ -1,0 +1,1 @@
+{"FREEZE_ON_HOVER":false,"ALWAYS_ON_TOP":true,"VOLUME":1.0,"SH_PAUSE":{"keycode":57,"keyname":"SPACE","isCharKey":false,"isFunctionKey":false,"isMediaKey":false},"SH_RESET":"Ctrl+R","SH_POMODORO":"Ctrl+P","SH_LONG_BREAK":"Ctrl+L","SH_SHORT_BREAK":"Ctrl+S"}

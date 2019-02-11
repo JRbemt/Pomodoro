@@ -1,0 +1,6 @@
+#clock{
+    -fx-text-fill: white;
+    -fx-alignment:CENTER;
+    -fx-font-size: 100;
+    -fx-padding: 20 15 20 15;
+}

@@ -1,0 +1,4 @@
+) pause button
+
+) abstraction -> all settings as string
+) settings change listeners

@@ -1,0 +1,29 @@
+# java specific
+*.bak
+*.class
+
+#eclipse specific
+.metadata/*
+.settings
+
+#intellij specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+#temp build
+[Bb]uild*/
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+out/
+
+#windows Junk
+*.ini
+[Tt]humbs.db
+*.DS_Store
+
+*.log
+fxapp/output.json
+.gradle/

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="root" styleClass="root" id="settings_root" maxHeight="-Infinity" maxWidth="400.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pomodoro.controllers.SettingsController">
+   <children>
+      <StackPane id="overlay" alignment="TOP_CENTER" prefHeight="40.0" prefWidth="400.0">
+         <children>
+            <HBox id="app_bar" fx:id="app_bar" alignment="TOP_RIGHT" minHeight="40.0" onMouseDragged="#onAppBarDrag" onMousePressed="#appBarDragStarted" prefHeight="40.0" prefWidth="400.0">
+               <children>
+                  <Label id="close_button" fx:id="close_button" onMouseClicked="#close" prefHeight="30.0" prefWidth="70.0" styleClass="icons" text="X" />
+               </children>
+            </HBox>
+            <Label id="app_title" fx:id="app_title" alignment="CENTER" contentDisplay="TOP" prefHeight="30.0" prefWidth="400.0" text="%settings" />
+         </children>
+      </StackPane>
+      <ListView id="settings_list" fx:id="settings_list" layoutY="40.0" prefWidth="20000.0" VBox.vgrow="ALWAYS" />
+   </children>
+</VBox>

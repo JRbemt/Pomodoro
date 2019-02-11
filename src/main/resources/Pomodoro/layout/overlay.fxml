@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="overlay" fx:id="root" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pomodoro.controllers.ControlOverlay">
+            <children>
+                      <HBox id="app_bar" fx:id="app_bar" alignment="TOP_RIGHT" maxHeight="-Infinity" minHeight="-Infinity" onMouseDragged="#onAppBarDrag" onMousePressed="#appBarDragStarted" prefHeight="40.0" prefWidth="200.0">
+                          <children>
+                              <Label id="settings_button" fx:id="settings_button" onMouseReleased="#openSettings" prefHeight="30.0" prefWidth="30.0" styleClass="icons" text="Settings" />
+                              <Label id="close_button" fx:id="close_button" onMouseReleased="#close" prefHeight="30.0" prefWidth="70.0" styleClass="icons" text="X" />
+                          </children>
+                      </HBox>
+                      <Label id="app_title" fx:id="app_title" contentDisplay="TOP" onMouseClicked="#openSettings" prefHeight="30.0" text="Pomodoro">
+         <padding>
+            <Insets left="16.0" />
+         </padding>
+      </Label>
+            </children>
+</AnchorPane>
